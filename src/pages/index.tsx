@@ -10,6 +10,7 @@ import ficComp2 from '../../public/ficComp2.svg'
 import ficComp3 from '../../public/ficComp3.svg'
 import ficComp4 from '../../public/ficComp4.svg'
 import ficComp5 from '../../public/ficComp5.svg'
+import codeSmall from '../../public/codeSmall.svg'
 
 export default function Home() {
   return (
@@ -35,7 +36,7 @@ export default function Home() {
       </Head>
       <main className="max-w-7xl text-[#fff] mx-auto font-body">
         {/* HEADER */}
-        <div className="bg-[#3F4237]/20 px-5 md:px-8 py-7 mt-6 flex justify-between items-center">
+        <div className="bg-[#3F4237]/20 px-5 md:px-8 py-7 flex md:mt-6 justify-between items-center">
           <div>
             <p className="font-ibm-mono font-thin text-lg">
               <span className="text-primary font-semibold">The</span>Programmer
@@ -163,6 +164,76 @@ export default function Home() {
                 className="hover:contrast-50 cursor-pointer duration-150"
               />
             </div>
+          </div>
+
+          {/* FINALLY */}
+          <div className="flex items-center gap-10 py-14">
+            <div className="flex flex-col gap-10">
+              <p className="font-dm-mono text-5xl leading-[110%]">
+                Finally you can develop{' '}
+                <span className="text-primary">&#123;full - stack&#125;</span>{' '}
+                web applications in one place.
+              </p>
+              <p className="text-lg text-[#909395]">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud ame
+              </p>
+            </div>
+
+            <div className="flex-shrink-0">
+              <Image src={codeSmall} alt="code" />
+            </div>
+          </div>
+
+          {/* OPTIMIZED */}
+          <div className="py-14 mt-40 flex gap-10">
+            <div className="py-10 px-8 flex flex-col gap-8 border-b-4 border-[#03090E] hover:border-primary hover:bg-[#0A1319] duration-150">
+              <div>
+                <p className="text-3xl font-dm-mono">Optimized Frameworks</p>
+                <p className="text-[#909395] mt-2 text-lg">
+                  A custom environment designed especially for developing and
+                  facilitating React, Vue, Angular, and other.
+                </p>
+              </div>
+              <button className="hidden md:flex items-end gap-2 group w-fit">
+                READ MORE{' '}
+                <Image
+                  src={icArrow}
+                  alt="arrow"
+                  className="mb-1.5 group-hover:translate-y-0.5 duration-150"
+                />
+              </button>
+            </div>
+
+            <div className="py-10 px-8 flex flex-col gap-8 border-b-4 border-[#03090E] hover:border-primary hover:bg-[#0A1319] duration-150">
+              <div>
+                <p className="text-3xl font-dm-mono">Integrated with GitHub</p>
+                <p className="text-[#909395] mt-2 text-lg">
+                  Import and run GitHub repositories directly. Alternatively,
+                  you can commit your source code to a repository.
+                </p>
+              </div>
+              <button className="hidden md:flex items-end gap-2 group w-fit">
+                READ MORE{' '}
+                <Image
+                  src={icArrow}
+                  alt="arrow"
+                  className="mb-1.5 group-hover:translate-y-0.5 duration-150"
+                />
+              </button>
+            </div>
+          </div>
+
+          <div className="ml-7">
+            <button className="hidden md:flex items-end gap-2 group w-fit">
+              EXPLORE MORE SERVICES{' '}
+              <Image
+                src={icArrow}
+                alt="arrow"
+                className="mb-1.5 group-hover:translate-y-0.5 duration-150"
+              />
+            </button>
           </div>
         </div>
       </main>
