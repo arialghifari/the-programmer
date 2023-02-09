@@ -43,7 +43,7 @@ export default function Home() {
             </p>
           </div>
 
-          <nav className="hidden md:flex gap-10 text-sm">
+          <nav className="hidden lg:flex gap-10 text-sm">
             <Link
               href="#"
               className="text-[white]/75 hover:text-[white] duration-150"
@@ -82,7 +82,7 @@ export default function Home() {
             </Link>
           </nav>
 
-          <button className="hidden md:flex items-end gap-2 group">
+          <button className="hidden lg:flex items-end gap-2 group">
             SIGN UP{' '}
             <Image
               src={icArrow}
@@ -167,9 +167,9 @@ export default function Home() {
           </div>
 
           {/* FINALLY */}
-          <div className="flex items-center gap-10 py-14">
+          <div className="flex items-center gap-10 py-3 lg:py-14 flex-col-reverse lg:flex-row">
             <div className="flex flex-col gap-10">
-              <p className="font-dm-mono text-5xl leading-[110%]">
+              <p className="font-dm-mono text-3xl md:text-5xl leading-[120%] md:leading-[110%]">
                 Finally you can develop{' '}
                 <span className="text-primary">&#123;full - stack&#125;</span>{' '}
                 web applications in one place.
@@ -187,8 +187,8 @@ export default function Home() {
           </div>
 
           {/* OPTIMIZED */}
-          <div className="py-14 mt-40 flex gap-10">
-            <div className="py-10 px-8 flex flex-col gap-8 border-b-4 border-[#03090E] hover:border-primary hover:bg-[#0A1319] duration-150">
+          <div className="py-12 md:py-14 mt-8 md:mt-20 flex flex-col md:flex-row gap-4 md:gap-10">
+            <div className="justify-center py-10 px-8 flex flex-col gap-8 border-b-4 border-[#03090E] hover:border-primary hover:bg-[#0A1319] duration-150">
               <div>
                 <p className="text-3xl font-dm-mono">Optimized Frameworks</p>
                 <p className="text-[#909395] mt-2 text-lg">
@@ -196,7 +196,7 @@ export default function Home() {
                   facilitating React, Vue, Angular, and other.
                 </p>
               </div>
-              <button className="hidden md:flex items-end gap-2 group w-fit">
+              <button className="flex items-end gap-2 group w-fit">
                 READ MORE{' '}
                 <Image
                   src={icArrow}
@@ -206,7 +206,7 @@ export default function Home() {
               </button>
             </div>
 
-            <div className="py-10 px-8 flex flex-col gap-8 border-b-4 border-[#03090E] hover:border-primary hover:bg-[#0A1319] duration-150">
+            <div className="justify-center py-10 px-8 flex flex-col gap-8 border-b-4 border-[#03090E] hover:border-primary hover:bg-[#0A1319] duration-150">
               <div>
                 <p className="text-3xl font-dm-mono">Integrated with GitHub</p>
                 <p className="text-[#909395] mt-2 text-lg">
@@ -214,7 +214,7 @@ export default function Home() {
                   you can commit your source code to a repository.
                 </p>
               </div>
-              <button className="hidden md:flex items-end gap-2 group w-fit">
+              <button className="flex items-end gap-2 group w-fit">
                 READ MORE{' '}
                 <Image
                   src={icArrow}
@@ -226,7 +226,7 @@ export default function Home() {
           </div>
 
           <div className="ml-7">
-            <button className="hidden md:flex items-end gap-2 group w-fit">
+            <button className="flex items-end gap-2 group w-fit">
               EXPLORE MORE SERVICES{' '}
               <Image
                 src={icArrow}
