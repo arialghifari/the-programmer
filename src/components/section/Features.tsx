@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import icArrow from '../../../public/arrow.svg'
 import codeSmall from '../../../public/codeSmall.svg'
 import Button from '@/components/Button'
 
@@ -50,14 +49,7 @@ export default function Features() {
         </div>
 
         <div className="ml-8 mt-12">
-          <button className="flex items-end gap-2 group w-fit">
-            EXPLORE MORE SERVICES{' '}
-            <Image
-              src={icArrow}
-              alt="arrow"
-              className="mb-1.5 group-hover:translate-y-0.5 duration-150"
-            />
-          </button>
+          <Button p={false}>EXPLORE MORE SERVICES</Button>
         </div>
       </div>
     </>
