@@ -11,7 +11,7 @@ export default function Hero() {
           Expert Developers for a Connected{' '}
           <span className="text-primary">&#123;World&#125;</span>
         </h1>
-        <Button bgColor="#1C2012">GET A DEMO</Button>
+        <Button classList="bg-[#1C2012] hover:bg-[#1C2012]/80 justify-center">GET A DEMO</Button>
       </div>
 
       <div className="flex flex-col md:flex-row md:items-center mt-14 gap-4 md:gap-16">

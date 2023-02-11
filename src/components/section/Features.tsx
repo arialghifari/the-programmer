@@ -33,7 +33,7 @@ export default function Features() {
                 facilitating React, Vue, Angular, and other.
               </p>
             </div>
-            <Button p={false}>READ MORE</Button>
+            <Button classList="px-0 w-fit">READ MORE</Button>
           </div>
 
           <div className="justify-center py-10 px-8 flex flex-col gap-8 border-b-4 border-[#03090E] hover:border-primary hover:bg-[#0A1319] duration-150">
@@ -44,12 +44,12 @@ export default function Features() {
                 can commit your source code to a repository.
               </p>
             </div>
-            <Button p={false}>READ MORE</Button>
+            <Button classList="px-0 w-fit">READ MORE</Button>
           </div>
         </div>
 
         <div className="ml-8 mt-12">
-          <Button p={false}>EXPLORE MORE SERVICES</Button>
+          <Button classList="px-0 w-fit">EXPLORE MORE SERVICES</Button>
         </div>
       </div>
     </>

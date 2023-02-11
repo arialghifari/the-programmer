@@ -1,5 +1,5 @@
-import Link from "next/link";
-import Button from "../Button";
+import Link from 'next/link'
+import Button from '../Button'
 
 export default function Header() {
   return (
@@ -49,7 +49,7 @@ export default function Header() {
         </Link>
       </nav>
 
-      <Button p={false}>SIGN UP</Button>
+      <Button classList="py-4 px-6 hidden lg:flex">SIGN UP</Button>
     </div>
   )
 }
